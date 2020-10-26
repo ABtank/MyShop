@@ -8,7 +8,6 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<groupId>ru.abtank.spring_shop</groupId>
 	<artifactId>shop-ui</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>shop-ui</name>

@@ -3,12 +3,9 @@ server:
   servlet:
     context-path: /store
 spring:
-  liquibase:
-    change-log: liquibase.properties
-    enabled: true
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres?schema=my_shop
+    url: jdbc:postgresql://localhost:5432/postgres?schema=magazine
     username: postgres
     password: 123
   jpa:
